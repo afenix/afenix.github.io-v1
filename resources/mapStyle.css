@@ -1,0 +1,234 @@
+
+.center {
+    margin: 0px auto;
+    width: 90%;
+    padding: 15px 0px 65px 100px;
+}
+
+button {
+    margin:0 auto;
+    display:block;
+}
+
+.worldcat-logo {
+	max-width:12%; 
+	max-height:12%; 
+	float:left;
+	margin: 5px 20px 10px 5px;
+}
+
+.page-title { 
+	float: left;
+	margin: 5px 0px 0px 5px;
+	font-family: 'Dosis', sans-serif; 
+	color:#666666;
+}
+
+.total-container h2 {
+    margin-top:0;
+}
+
+.total-container h3 {
+    margin-top: 10px;
+}
+
+.total-container {
+    background-color: #838689;
+    border: 2px solid white
+}
+
+.distinct-container h2 {
+    margin-top:0;
+}
+
+.distinct-container h3 {
+    margin-top: 10px;
+}
+
+.distinct-container {
+    background-color: #838689;
+    border: 2px solid white;
+}
+
+.total-holdings-header { 
+	text-align: center; 
+	font-family: 'Dosis', sans-serif; 
+	color:#FFFFFF;
+}
+
+.total-holdings-subheader { 
+    text-align: center; 
+    font-family: 'Dosis', sans-serif; 
+    color:#FFFFFF;
+}
+
+.distinct-holdings-header { 
+    text-align: center; 
+    font-family: 'Dosis', sans-serif; 
+    color:#FFFFFF; 
+}
+
+.distinct-holdings-subheader { 
+	text-align: center; 
+	font-family: 'Dosis', sans-serif; 
+	color:#FFFFFF; 
+}
+
+h2.button-margin {
+    margin: 10px;
+    font-family: 'Dosis', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#map { 
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 300px;
+    left: 50%;
+}
+
+.descriptive-text-container {
+    margin: 0px 25px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 195px;
+}
+
+.descriptive-text {
+    font-family: 'Dosis', sans-serif; 
+    color: #666666;
+    background-color: #fff;
+    font-size: 150%;
+    // padding-top: 50px;
+    // border-radius: 3px;
+    // padding: 10px;
+    // box-shadow:0 1px 2px rgba(0,0,0,0.20);
+}
+
+h2#location-title {
+    margin-top: 0px;
+}
+
+.legend {
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 325px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px 'Lato', sans-serif;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  bottom: 345px;
+  z-index: 1;
+  text-align: left;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+.legend h5 {
+  margin: 0 0 10px;
+}
+
+.legend div span {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#circle1 {
+  background-color: #666666;
+  height: 5px;
+  width: 5px;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#circle2 {
+  background-color: #666666;
+  height: 7px;
+  width: 7px;
+  margin-right: 11px;
+  margin-left: 4.8px;
+}
+
+#circle3 {
+  background-color: #666666;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  margin-left: 3.5px;
+}
+
+#circle4 {
+  background-color: #666666;
+  height: 13px;
+  width: 13px;
+  margin-right: 9px;
+  margin-left: 1.5px;
+}
+
+#circle5 {
+  background-color: #666666;
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
+  // margin-left: 0px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 14px/20px 'Lato', sans-serif;
+  color: #666666;
+}
+
+
+.map-overlay h2,
+.map-overlay p {
+    margin: 0 0 10px;
+}
+
+#menu {
+    background: #fff;
+    // position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0,0,0,0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+#menu a:last-child {
+    border: none;
+}
+
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}
+
+#menu a.active {
+    background-color: #3887be;
+    color: #ffffff;
+}
+
+#menu a.active:hover {
+    background: #3074a4;
+}

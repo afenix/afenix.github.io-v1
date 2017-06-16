@@ -1,0 +1,2475 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Saskatchewan",
+        "inst_name": "University of Regina",
+        "inst_id": "5762",
+        " Shared Print Retention Count ": "69,179",
+        " Shared Print Unique Retentions ": "38,035"
+      },
+      "geometry": {
+        "coordinates": [
+          -104.58849,
+          50.417013
+        ],
+        "type": "Point"
+      },
+      "id": "00dbf440e40608f621ebc4dcd0a3635b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Pace University",
+        "inst_id": "311",
+        " Shared Print Retention Count ": "98,654",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -74.005139,
+          40.711491
+        ],
+        "type": "Point"
+      },
+      "id": "020b896358d6f6397cd2578f51913e63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New York",
+        "inst_name": "Rochester",
+        "inst_id": "4939",
+        " Shared Print Retention Count ": "348,137",
+        " Shared Print Unique Retentions ": "145,380"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.6283,
+          43.1283
+        ],
+        "type": "Point"
+      },
+      "id": "035f94e49a632cf2234a4e523262a4dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University Kokomo",
+        "inst_id": "2557",
+        " Shared Print Retention Count ": "22,139",
+        " Shared Print Unique Retentions ": "2,522"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.1314,
+          40.4597
+        ],
+        "type": "Point"
+      },
+      "id": "04a12b9900e4490bd07a7ff13941e140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Smith College",
+        "inst_id": "4926",
+        " Shared Print Retention Count ": "229,379",
+        " Shared Print Unique Retentions ": "109,826"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.6381,
+          42.3181
+        ],
+        "type": "Point"
+      },
+      "id": "065ea7e6e167e4fdc81fd07db21833d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Butler University",
+        "inst_id": "2546",
+        " Shared Print Retention Count ": "54,681",
+        " Shared Print Unique Retentions ": "14,804"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.1713,
+          39.8403
+        ],
+        "type": "Point"
+      },
+      "id": "090148eedf5417b9a4e0a3762ea8082f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "TUG",
+        "State/Province": "Ontario",
+        "inst_name": "Wilfrid Laurier University",
+        "inst_id": "566",
+        " Shared Print Retention Count ": "92,504",
+        " Shared Print Unique Retentions ": "3,903"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.526339,
+          43.472353
+        ],
+        "type": "Point"
+      },
+      "id": "0a426434f8db71faf06a1e38c4ab27cd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Connecticut",
+        "inst_name": "Fairfield University",
+        "inst_id": "4916",
+        " Shared Print Retention Count ": "78,420",
+        " Shared Print Unique Retentions ": "9,671"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.2903,
+          41.1815
+        ],
+        "type": "Point"
+      },
+      "id": "0a724c8c6160763676895660367aa019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "University of Indianapolis",
+        "inst_id": "2574",
+        " Shared Print Retention Count ": "32,174",
+        " Shared Print Unique Retentions ": "4,616"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.134,
+          39.7096
+        ],
+        "type": "Point"
+      },
+      "id": "0d4862eb420d5e8b8f1f852ce1f029d6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New York",
+        "inst_name": "Siena College",
+        "inst_id": "4925",
+        " Shared Print Retention Count ": "72,056",
+        " Shared Print Unique Retentions ": "8,803"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7536,
+          42.7183
+        ],
+        "type": "Point"
+      },
+      "id": "0e3226dc3b8d1a8b91bca2e0e51a7266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Ancilla College",
+        "inst_id": "2544",
+        " Shared Print Retention Count ": "5,160",
+        " Shared Print Unique Retentions ": "1,026"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.4459,
+          41.3382
+        ],
+        "type": "Point"
+      },
+      "id": "134767fffdd9ada88586694c523ee371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Oakland University",
+        "inst_id": "4864",
+        " Shared Print Retention Count ": "48,408",
+        " Shared Print Unique Retentions ": "3,940"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.215783,
+          42.672979
+        ],
+        "type": "Point"
+      },
+      "id": "137398c344cdaa629928352c64775880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "DePauw University",
+        "inst_id": "2549",
+        " Shared Print Retention Count ": "87,612",
+        " Shared Print Unique Retentions ": "23,736"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.8616,
+          39.6404
+        ],
+        "type": "Point"
+      },
+      "id": "13b94cceb4d80804844e1ebf97c1f9a4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Hanover College",
+        "inst_id": "2554",
+        " Shared Print Retention Count ": "36,602",
+        " Shared Print Unique Retentions ": "5,640"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.4624,
+          38.7193
+        ],
+        "type": "Point"
+      },
+      "id": "14a6624cdcf7c7503b37cdf4f5671530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "Marymount",
+        "inst_id": "2358",
+        " Shared Print Retention Count ": "69,228",
+        " Shared Print Unique Retentions ": "2,957"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.128188,
+          38.905536
+        ],
+        "type": "Point"
+      },
+      "id": "1922daeb385bf54b564c1ce0482774af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Connecticut",
+        "inst_name": "Trinity College",
+        "inst_id": "4928",
+        " Shared Print Retention Count ": "117,277",
+        " Shared Print Unique Retentions ": "19,322"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.69,
+          41.7474
+        ],
+        "type": "Point"
+      },
+      "id": "195560fa7e94fbee93eca5a216cc06a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Le Moyne College",
+        "inst_id": "309",
+        " Shared Print Retention Count ": "64,900",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -76.088255,
+          43.048955
+        ],
+        "type": "Point"
+      },
+      "id": "19a2ec965f60f02719d5c3641022fb61"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Union College",
+        "inst_id": "317",
+        " Shared Print Retention Count ": "80,563",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -73.927901,
+          42.817298
+        ],
+        "type": "Point"
+      },
+      "id": "1a888c4f63881f65890b3b7a5f15bfa9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Valparaiso University",
+        "inst_id": "2577",
+        " Shared Print Retention Count ": "58,607",
+        " Shared Print Unique Retentions ": "10,673"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.0401,
+          41.4621
+        ],
+        "type": "Point"
+      },
+      "id": "1c77b35bb226d130fa3646a3499152db"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Alberta",
+        "inst_name": "University of Calgary",
+        "inst_id": "5768",
+        " Shared Print Retention Count ": "315,878",
+        " Shared Print Unique Retentions ": "254,621"
+      },
+      "geometry": {
+        "coordinates": [
+          -114.1358,
+          51.078159
+        ],
+        "type": "Point"
+      },
+      "id": "1e186ad1a1dce55207ae7345dabe802f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Ball State ",
+        "inst_id": "",
+        " Shared Print Retention Count ": "",
+        " Shared Print Unique Retentions ": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -85.407,
+          40.2011
+        ],
+        "type": "Point"
+      },
+      "id": "1e61faae408b9cef8fd6933758494356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Michigan Technological University",
+        "inst_id": "4862",
+        " Shared Print Retention Count ": "32,446",
+        " Shared Print Unique Retentions ": "9,873"
+      },
+      "geometry": {
+        "coordinates": [
+          -88.544531,
+          47.117051
+        ],
+        "type": "Point"
+      },
+      "id": "1fdad19b83c73272a8abbb8268858873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Tufts University",
+        "inst_id": "4929",
+        " Shared Print Retention Count ": "194,299",
+        " Shared Print Unique Retentions ": "58,480"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.1198,
+          42.4069
+        ],
+        "type": "Point"
+      },
+      "id": "248b6c4226bbf267f07ccb010d95fab6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "Catholic University",
+        "inst_id": "2354",
+        " Shared Print Retention Count ": "364,951",
+        " Shared Print Unique Retentions ": "69,939"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.998692,
+          38.936881
+        ],
+        "type": "Point"
+      },
+      "id": "25350de921cc25c1cddc6471053d9d19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Franklin College",
+        "inst_id": "2551",
+        " Shared Print Retention Count ": "24,214",
+        " Shared Print Unique Retentions ": "4,950"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.0455,
+          39.4786
+        ],
+        "type": "Point"
+      },
+      "id": "26266639a509aca605cf7b8cecfeb337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "University of Southern Indiana",
+        "inst_id": "2576",
+        " Shared Print Retention Count ": "55,597",
+        " Shared Print Unique Retentions ": "9,025"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.6776,
+          37.9629
+        ],
+        "type": "Point"
+      },
+      "id": "26e8dd3c31771ca2aa8b887aa5a787f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Hampshire College",
+        "inst_id": "4917",
+        " Shared Print Retention Count ": "33,396",
+        " Shared Print Unique Retentions ": "4,537"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.5308,
+          42.3251
+        ],
+        "type": "Point"
+      },
+      "id": "2b41e7a3d8686af325d021cacdc6cf47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "Howard University",
+        "inst_id": "2357",
+        " Shared Print Retention Count ": "443,081",
+        " Shared Print Unique Retentions ": "50,194"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.019655,
+          38.92239
+        ],
+        "type": "Point"
+      },
+      "id": "30444d146220f0774658b9580830c41f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Hamilton College",
+        "inst_id": "307",
+        " Shared Print Retention Count ": "103,522",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -75.407115,
+          43.05368
+        ],
+        "type": "Point"
+      },
+      "id": "31085f81ed8062e77a56537e69b2286e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Saint Mary's College",
+        "inst_id": "2569",
+        " Shared Print Retention Count ": "41,471",
+        " Shared Print Unique Retentions ": "7,099"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.2567,
+          41.7073
+        ],
+        "type": "Point"
+      },
+      "id": "3b484d6e8d9fc17b49a4783a051bc7fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Vermont",
+        "inst_name": "Middlebury College",
+        "inst_id": "4921",
+        " Shared Print Retention Count ": "141,139",
+        " Shared Print Unique Retentions ": "40,252"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.1772,
+          44.0089
+        ],
+        "type": "Point"
+      },
+      "id": "409e70e8485d1e312b0c43e754ef0040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Huntington Univers8ty",
+        "inst_id": "2555",
+        " Shared Print Retention Count ": "31,355",
+        " Shared Print Unique Retentions ": "6,656"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.4998,
+          40.899
+        ],
+        "type": "Point"
+      },
+      "id": "439bb6ab7ea59c1a7ca803f34ec89a43"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CI-CCI",
+        "State/Province": "Iowa",
+        "inst_name": "Simpson College",
+        "inst_id": "764",
+        " Shared Print Retention Count ": "20,366",
+        " Shared Print Unique Retentions ": "127"
+      },
+      "geometry": {
+        "coordinates": [
+          -93.563548,
+          41.364992
+        ],
+        "type": "Point"
+      },
+      "id": "45c0de5afe99751f14edd0a1eda60db6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "UMass Dartmouth",
+        "inst_id": "4936",
+        " Shared Print Retention Count ": "46,666",
+        " Shared Print Unique Retentions ": "7,348"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.006,
+          41.6287
+        ],
+        "type": "Point"
+      },
+      "id": "46174afa70b6006af36f03bc3ee93441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Taylor University",
+        "inst_id": "2572",
+        " Shared Print Retention Count ": "45,626",
+        " Shared Print Unique Retentions ": "12,358"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.4976,
+          40.4568
+        ],
+        "type": "Point"
+      },
+      "id": "46bb7066a485ab09d4a26817a2cdd75f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Pennsylvania",
+        "inst_name": "Swarthmore College",
+        "inst_id": "4927",
+        " Shared Print Retention Count ": "127,267",
+        " Shared Print Unique Retentions ": "32,237"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.3539,
+          39.905
+        ],
+        "type": "Point"
+      },
+      "id": "477e5b61d0a3d16b4d232b9c7505b644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Connecticut",
+        "inst_name": "Connecticut College",
+        "inst_id": "4914",
+        " Shared Print Retention Count ": "111,387",
+        " Shared Print Unique Retentions ": "26,929"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.1047,
+          41.3784
+        ],
+        "type": "Point"
+      },
+      "id": "479daa4f2005b73a16f180002ed0b94e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "British Columbia",
+        "inst_name": "Thompson Rivers University ",
+        "inst_id": "5767",
+        " Shared Print Retention Count ": "15,257",
+        " Shared Print Unique Retentions ": "5,654"
+      },
+      "geometry": {
+        "coordinates": [
+          -120.366626,
+          50.67122
+        ],
+        "type": "Point"
+      },
+      "id": "48788b190ebc918c4658b5f374bbfeb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Williams College",
+        "inst_id": "4942",
+        " Shared Print Retention Count ": "154,746",
+        " Shared Print Unique Retentions ": "33,401"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.2031,
+          42.7128
+        ],
+        "type": "Point"
+      },
+      "id": "49ecd24261ad1045cdd1113a066426ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "British Columbia",
+        "inst_name": "Simon Fraser University ",
+        "inst_id": "5766",
+        " Shared Print Retention Count ": "140,802",
+        " Shared Print Unique Retentions ": "77,158"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.919883,
+          49.278093
+        ],
+        "type": "Point"
+      },
+      "id": "4e4063332ba783a54085c7b4cb65b36c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Manchester University",
+        "inst_id": "2564",
+        " Shared Print Retention Count ": "32,449",
+        " Shared Print Unique Retentions ": "5,081"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.7601,
+          41.0115
+        ],
+        "type": "Point"
+      },
+      "id": "4f4f0894100379a4753fe4cbeccc6c34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "Gallaudet University",
+        "inst_id": "2355",
+        " Shared Print Retention Count ": "74,941",
+        " Shared Print Unique Retentions ": "20,468"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.992387,
+          38.908422
+        ],
+        "type": "Point"
+      },
+      "id": "51971228a34c02018457d13a48e1d445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University School of Dentistry",
+        "inst_id": "2560",
+        " Shared Print Retention Count ": "11,225",
+        " Shared Print Unique Retentions ": "6,390"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.1801,
+          39.774
+        ],
+        "type": "Point"
+      },
+      "id": "51a6660f8ee2b088230ae2ca40b45ee5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Five Colleges Incorporated",
+        "inst_id": "5033",
+        " Shared Print Retention Count ": "43,333",
+        " Shared Print Unique Retentions ": "16,685"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.51,
+          42.3061
+        ],
+        "type": "Point"
+      },
+      "id": "52eb821f8be0b43367c97c2c9bc521f5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "British Columbia",
+        "inst_name": "University of Victoria",
+        "inst_id": "5770",
+        " Shared Print Retention Count ": "198,071",
+        " Shared Print Unique Retentions ": "147,018"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.311693,
+          48.463406
+        ],
+        "type": "Point"
+      },
+      "id": "5305ab007c8f72a1c6f84b6da35e449d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Vassar College",
+        "inst_id": "319",
+        " Shared Print Retention Count ": "106,505",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -73.895413,
+          41.687038
+        ],
+        "type": "Point"
+      },
+      "id": "5306bb30fcff799638fb84eef8693936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Colgate University",
+        "inst_id": "306",
+        " Shared Print Retention Count ": "101,108",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -75.535734,
+          42.817291
+        ],
+        "type": "Point"
+      },
+      "id": "5499ee2bb94b3088e67666255fbec2c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "UMass Lowell",
+        "inst_id": "4937",
+        " Shared Print Retention Count ": "62,687",
+        " Shared Print Unique Retentions ": "7,892"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.3345,
+          42.6427
+        ],
+        "type": "Point"
+      },
+      "id": "562748738b84b87647790849af23e170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Oakland City University",
+        "inst_id": "2566",
+        " Shared Print Retention Count ": "24,884",
+        " Shared Print Unique Retentions ": "7,778"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.3519,
+          38.3401
+        ],
+        "type": "Point"
+      },
+      "id": "5a5a56a7305266d2d3177355cbbe1e78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana State University",
+        "inst_id": "2556",
+        " Shared Print Retention Count ": "179,564",
+        " Shared Print Unique Retentions ": "28,202"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.4106,
+          39.4705
+        ],
+        "type": "Point"
+      },
+      "id": "5a849c25651d09c806a711cd1a377b45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "TUG",
+        "State/Province": "Ontario",
+        "inst_name": "University of Guelph",
+        "inst_id": "564",
+        " Shared Print Retention Count ": "116,436",
+        " Shared Print Unique Retentions ": "9,171"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.226861,
+          43.532099
+        ],
+        "type": "Point"
+      },
+      "id": "5eb68f67eb592e055f338004672553aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "UMass Boston",
+        "inst_id": "4935",
+        " Shared Print Retention Count ": "93,926",
+        " Shared Print Unique Retentions ": "22,238"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.0384,
+          42.3134
+        ],
+        "type": "Point"
+      },
+      "id": "5f06ac8fa53d03a1c5a45c2da86ef497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "University of Michigan Dearborn",
+        "inst_id": "4866",
+        " Shared Print Retention Count ": "35,378",
+        " Shared Print Unique Retentions ": "2,216"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.233202,
+          42.318409
+        ],
+        "type": "Point"
+      },
+      "id": "5fb5d10433fc793b184b5c9c1bd9f1f5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Grand Valley State University",
+        "inst_id": "4861",
+        " Shared Print Retention Count ": "47,215",
+        " Shared Print Unique Retentions ": "6,734"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.888324,
+          42.963882
+        ],
+        "type": "Point"
+      },
+      "id": "629a3c66cff597958d800707f5e28ed1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "University of DC",
+        "inst_id": "2359",
+        " Shared Print Retention Count ": "143,089",
+        " Shared Print Unique Retentions ": "9,511"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.065372,
+          38.943963
+        ],
+        "type": "Point"
+      },
+      "id": "63eecced9310b756fd7e251213f841f8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Manitoba",
+        "inst_name": "University of Winnipeg",
+        "inst_id": "5771",
+        " Shared Print Retention Count ": "49,716",
+        " Shared Print Unique Retentions ": "29,130"
+      },
+      "geometry": {
+        "coordinates": [
+          -97.154507,
+          49.891674
+        ],
+        "type": "Point"
+      },
+      "id": "67fed3f43bccc25889a98b532da0a0c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Bridgewater",
+        "inst_id": "4911",
+        " Shared Print Retention Count ": "65,930",
+        " Shared Print Unique Retentions ": "10,578"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.965,
+          41.986944
+        ],
+        "type": "Point"
+      },
+      "id": "685417f184e6474ec2295d5c6d0cfc1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Boston University",
+        "inst_id": "4909",
+        " Shared Print Retention Count ": "185,001",
+        " Shared Print Unique Retentions ": "82,218"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.0997,
+          42.3496
+        ],
+        "type": "Point"
+      },
+      "id": "694fd7cb9f0417272db769e83b2ffcbc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "George Mason",
+        "inst_id": "2241",
+        " Shared Print Retention Count ": "504,537",
+        " Shared Print Unique Retentions ": "46,483"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.312088,
+          38.831554
+        ],
+        "type": "Point"
+      },
+      "id": "69b8f6373df4157f2796f47621d3bfd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Pennsylvania",
+        "inst_name": "Lafayette College",
+        "inst_id": "4920",
+        " Shared Print Retention Count ": "104,004",
+        " Shared Print Unique Retentions ": "13,454"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.208,
+          40.698
+        ],
+        "type": "Point"
+      },
+      "id": "6aec4fef1b1861213392efdfe2d16fd1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "Radford University",
+        "inst_id": "2244",
+        " Shared Print Retention Count ": "149,393",
+        " Shared Print Unique Retentions ": "10,020"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.550622,
+          37.138268
+        ],
+        "type": "Point"
+      },
+      "id": "6b2514717c50234f2de735aba1db1add"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Earlham College",
+        "inst_id": "2550",
+        " Shared Print Retention Count ": "51,725",
+        " Shared Print Unique Retentions ": "14,371"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.9132,
+          39.8239
+        ],
+        "type": "Point"
+      },
+      "id": "6c1baca3513a51cc0d4f26658d8ab06c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Anderson Univ",
+        "inst_id": "2545",
+        " Shared Print Retention Count ": "58,626",
+        " Shared Print Unique Retentions ": "14,215"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.4053,
+          40.06
+        ],
+        "type": "Point"
+      },
+      "id": "6cc5faeaf54b9f872faac094b6534de0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Connecticut",
+        "inst_name": "Wesleyan University",
+        "inst_id": "4941",
+        " Shared Print Retention Count ": "210,179",
+        " Shared Print Unique Retentions ": "67,406"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.6558,
+          41.5556
+        ],
+        "type": "Point"
+      },
+      "id": "6f14592383c555f27d4485c454063fc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Alberta",
+        "inst_name": "University of Lethbridge",
+        "inst_id": "5763",
+        " Shared Print Retention Count ": "40,128",
+        " Shared Print Unique Retentions ": "26,249"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.859448,
+          49.678646
+        ],
+        "type": "Point"
+      },
+      "id": "705394f58f8e310af5658168f3a3e6aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Wellesley College",
+        "inst_id": "4940",
+        " Shared Print Retention Count ": "150,549",
+        " Shared Print Unique Retentions ": "45,643"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.3067,
+          42.2953
+        ],
+        "type": "Point"
+      },
+      "id": "72475e16eea00bbb02de1c6796bebedc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Saint Joseph's College",
+        "inst_id": "2568",
+        " Shared Print Retention Count ": "17,937",
+        " Shared Print Unique Retentions ": "2,525"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.156,
+          40.9196
+        ],
+        "type": "Point"
+      },
+      "id": "7464a87eee2692f0942b7b2f0880c049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Saint Mary-of-the-Woods College",
+        "inst_id": "2570",
+        " Shared Print Retention Count ": "30,345",
+        " Shared Print Unique Retentions ": "6,365"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.4632,
+          39.5095
+        ],
+        "type": "Point"
+      },
+      "id": "75d864e061912f3c802ff34c717a40b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Connecticut",
+        "inst_name": "UConn",
+        "inst_id": "4930",
+        " Shared Print Retention Count ": "261,933",
+        " Shared Print Unique Retentions ": "105,324"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.2525,
+          41.8072
+        ],
+        "type": "Point"
+      },
+      "id": "77586e4cfa925d68a9f33b88534d85ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Saginaw Valley",
+        "inst_id": "4865",
+        " Shared Print Retention Count ": "15,048",
+        " Shared Print Unique Retentions ": "1,977"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.96434,
+          43.551879
+        ],
+        "type": "Point"
+      },
+      "id": "7b3b899fb62918715d2d1f2f80edb111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MSCS",
+        "State/Province": "Maine",
+        "inst_name": " --- MULTIPLE -- ",
+        "inst_id": " --- MULTIPLE -- ",
+        " Shared Print Retention Count ": "1,408,737",
+        " Shared Print Unique Retentions ": "302,601"
+      },
+      "geometry": {
+        "coordinates": [
+          -69.125977,
+          45.455796
+        ],
+        "type": "Point"
+      },
+      "id": "7ed9a6a1afe6030256473201d672445c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Cazenovia College",
+        "inst_id": "305",
+        " Shared Print Retention Count ": "6,596",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -75.853611,
+          42.932222
+        ],
+        "type": "Point"
+      },
+      "id": "80255aadee7e6f6f9315a57892274f91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "Virginia Commonwealth University",
+        "inst_id": "2247",
+        " Shared Print Retention Count ": "468,616",
+        " Shared Print Unique Retentions ": "33,391"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.453428,
+          37.548987
+        ],
+        "type": "Point"
+      },
+      "id": "8786e91482accf467be4fcdb77107295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Adelphi University",
+        "inst_id": "302",
+        " Shared Print Retention Count ": "81,817",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -73.652351,
+          40.722323
+        ],
+        "type": "Point"
+      },
+      "id": "89da76217d42b62254ce36959f3b5ea2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "Georgetown University",
+        "inst_id": "2361",
+        " Shared Print Retention Count ": "860,424",
+        " Shared Print Unique Retentions ": "164,122"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.072192,
+          38.906618
+        ],
+        "type": "Point"
+      },
+      "id": "8a50459db05440226e0ebd525035b601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New Hampshire",
+        "inst_name": "UNH",
+        "inst_id": "4938",
+        " Shared Print Retention Count ": "171,371",
+        " Shared Print Unique Retentions ": "38,762"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.9264,
+          43.1339
+        ],
+        "type": "Point"
+      },
+      "id": "8a7e03968fe9c05d454e10e01f651f31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Eastern Michigan University",
+        "inst_id": "4859",
+        " Shared Print Retention Count ": "172,346",
+        " Shared Print Unique Retentions ": "1,150"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.624089,
+          42.25068
+        ],
+        "type": "Point"
+      },
+      "id": "8bd06fdb3cf85c6c83072017f1745dc5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New York",
+        "inst_name": "Yeshiva University",
+        "inst_id": "4943",
+        " Shared Print Retention Count ": "165,674",
+        " Shared Print Unique Retentions ": "72,921"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9297,
+          40.8503
+        ],
+        "type": "Point"
+      },
+      "id": "9065d33329200a2af458358873ccaa78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "University of Saint Francis",
+        "inst_id": "2575",
+        " Shared Print Retention Count ": "19,454",
+        " Shared Print Unique Retentions ": "3,634"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.1755,
+          41.0867
+        ],
+        "type": "Point"
+      },
+      "id": "937361ccbaff9a0fc31994c264e0445b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Medaille College",
+        "inst_id": "310",
+        " Shared Print Retention Count ": "7,758",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -78.855277,
+          42.928888
+        ],
+        "type": "Point"
+      },
+      "id": "939f7069cb0168265192609504bb439f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University School of Medicine",
+        "inst_id": "2561",
+        " Shared Print Retention Count ": "41,102",
+        " Shared Print Unique Retentions ": "13,699"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.165,
+          39.7817
+        ],
+        "type": "Point"
+      },
+      "id": "96d4a32a3a48ebd8f45b121748d44547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Central Michigan University",
+        "inst_id": "4858",
+        " Shared Print Retention Count ": "84,247",
+        " Shared Print Unique Retentions ": "6,432"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.775138,
+          43.591209
+        ],
+        "type": "Point"
+      },
+      "id": "9a26e5e9418c080c3fc6c3bd000f7552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Saint Meinrad Seminary and School of Theology",
+        "inst_id": "2571",
+        " Shared Print Retention Count ": "59,226",
+        " Shared Print Unique Retentions ": "14,665"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.8106,
+          38.166
+        ],
+        "type": "Point"
+      },
+      "id": "9d41378e70224138e9423daf93aa332c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Saint Lawrence University",
+        "inst_id": "314",
+        " Shared Print Retention Count ": "112,804",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -75.16076,
+          44.592005
+        ],
+        "type": "Point"
+      },
+      "id": "9e4b6603a2452b1fe1ee76076e644df2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "Virginia Tech",
+        "inst_id": "2251",
+        " Shared Print Retention Count ": "597,193",
+        " Shared Print Unique Retentions ": "82,200"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.423416,
+          37.228384
+        ],
+        "type": "Point"
+      },
+      "id": "9f829fa584807ec693970db45f64849e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Mount Holyoke College",
+        "inst_id": "4922",
+        " Shared Print Retention Count ": "154,739",
+        " Shared Print Unique Retentions ": "43,974"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.5745,
+          42.2556
+        ],
+        "type": "Point"
+      },
+      "id": "a0f632b9695fd28a55cf4882e84d13a6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Northern Michigan University",
+        "inst_id": "4863",
+        " Shared Print Retention Count ": "40,596",
+        " Shared Print Unique Retentions ": "3,724"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.403445,
+          46.557929
+        ],
+        "type": "Point"
+      },
+      "id": "a369dba25e0c0075866f75b7eee16889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "British Columbia",
+        "inst_name": "Vancouver Island University ",
+        "inst_id": "5764",
+        " Shared Print Retention Count ": "22,021",
+        " Shared Print Unique Retentions ": "12,082"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.96189,
+          49.157362
+        ],
+        "type": "Point"
+      },
+      "id": "a450bcff0e34ae4efc87783adfb143f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "William and Mary",
+        "inst_id": "3769",
+        " Shared Print Retention Count ": "425,681",
+        " Shared Print Unique Retentions ": "38,144"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.713378,
+          37.271674
+        ],
+        "type": "Point"
+      },
+      "id": "a5dc35f0ee92f93b0f6cf9ba1a623f31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New York",
+        "inst_name": "Skidmore",
+        "inst_id": "4944",
+        " Shared Print Retention Count ": "78,365",
+        " Shared Print Unique Retentions ": "10,083"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7853,
+          43.0978
+        ],
+        "type": "Point"
+      },
+      "id": "a66478e06375134b8796f89df76e900f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Anabaptist Mennonite Biblical Seminary (AMBS)",
+        "inst_id": "2543",
+        " Shared Print Retention Count ": "40,203",
+        " Shared Print Unique Retentions ": "10,593"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.972,
+          41.656
+        ],
+        "type": "Point"
+      },
+      "id": "a6e38861acd568b95806ef0339f5e21a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "TUG",
+        "State/Province": "Ontario",
+        "inst_name": "University of Waterloo",
+        "inst_id": "565",
+        " Shared Print Retention Count ": "131,339",
+        " Shared Print Unique Retentions ": "7,322"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.544857,
+          43.472285
+        ],
+        "type": "Point"
+      },
+      "id": "af87b0e55cbdd358fc209bf3c167881f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Wayne State University",
+        "inst_id": "4867",
+        " Shared Print Retention Count ": "100,278",
+        " Shared Print Unique Retentions ": "38,064"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.066546,
+          42.359139
+        ],
+        "type": "Point"
+      },
+      "id": "b13a1d22b89ce26993658c43ceaf35e8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New Hampshire",
+        "inst_name": "Saint Anselm College",
+        "inst_id": "4924",
+        " Shared Print Retention Count ": "49,074",
+        " Shared Print Unique Retentions ": "6,467"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.5064,
+          42.985
+        ],
+        "type": "Point"
+      },
+      "id": "b158b7a7b5d34dc602e9dc0fc8092cf2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Concordia",
+        "inst_id": "2548",
+        " Shared Print Retention Count ": "64,374",
+        " Shared Print Unique Retentions ": "24,168"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.1096,
+          41.139
+        ],
+        "type": "Point"
+      },
+      "id": "b61553794afb90a14f56bd7035afe46f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Amherst College",
+        "inst_id": "4907",
+        " Shared Print Retention Count ": "177,801",
+        " Shared Print Unique Retentions ": "60,147"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.516,
+          42.3708
+        ],
+        "type": "Point"
+      },
+      "id": "be37bebaa92549aeb293658fb7feff9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Elms College",
+        "inst_id": "4915",
+        " Shared Print Retention Count ": "14,808",
+        " Shared Print Unique Retentions ": "4,282"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.6014,
+          42.1423
+        ],
+        "type": "Point"
+      },
+      "id": "bfa0c1a61d3c629a1d055fef7add1563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "Old Dominion",
+        "inst_id": "2243",
+        " Shared Print Retention Count ": "434,572",
+        " Shared Print Unique Retentions ": "35,553"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.307344,
+          36.884941
+        ],
+        "type": "Point"
+      },
+      "id": "c2e1557564e31c102bcd901fcfba8f33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "UMass Amherst",
+        "inst_id": "4934",
+        " Shared Print Retention Count ": "1,251,528",
+        " Shared Print Unique Retentions ": "355,373"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.5278,
+          42.3889
+        ],
+        "type": "Point"
+      },
+      "id": "c42c6e3c19be2c1624ac7b6b1866a0a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "James Madison University ",
+        "inst_id": "2242",
+        " Shared Print Retention Count ": "244,707",
+        " Shared Print Unique Retentions ": "21,234"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.869754,
+          38.435092
+        ],
+        "type": "Point"
+      },
+      "id": "c56ce97c2298434dd1d0d24c7da533be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "IPFW",
+        "inst_id": "2562",
+        " Shared Print Retention Count ": "48,016",
+        " Shared Print Unique Retentions ": "7,445"
+      },
+      "geometry": {
+        "coordinates": [
+          -41.1215,
+          41.1215
+        ],
+        "type": "Point"
+      },
+      "id": "c59a372de0251246ee9d719099d587a6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Purdue University Calumet",
+        "inst_id": "2567",
+        " Shared Print Retention Count ": "36,450",
+        " Shared Print Unique Retentions ": "5,094"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.474,
+          41.5848
+        ],
+        "type": "Point"
+      },
+      "id": "c6f9dc12ce02466d4e2bba4c540df520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Goshen College",
+        "inst_id": "2552",
+        " Shared Print Retention Count ": "24,397",
+        " Shared Print Unique Retentions ": "3,927"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.8283,
+          41.5644
+        ],
+        "type": "Point"
+      },
+      "id": "c7e6b083710e7bf3cf39ec483611b835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Pennsylvania",
+        "inst_name": "Bryn Mawr College",
+        "inst_id": "4912",
+        " Shared Print Retention Count ": "139,076",
+        " Shared Print Unique Retentions ": "60,335"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.3136,
+          40.0264
+        ],
+        "type": "Point"
+      },
+      "id": "cb73280186472a697c6fa18f9e08947e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Grace College",
+        "inst_id": "2553",
+        " Shared Print Retention Count ": "46,661",
+        " Shared Print Unique Retentions ": "12,860"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.816,
+          41.2259
+        ],
+        "type": "Point"
+      },
+      "id": "cc70af09e851bb3ce97310dd5af89786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University Purdue University at Indianapolis",
+        "inst_id": "2563",
+        " Shared Print Retention Count ": "208,321",
+        " Shared Print Unique Retentions ": "42,029"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.1762,
+          39.7742
+        ],
+        "type": "Point"
+      },
+      "id": "cd54964ec65e3e09b46e155e752684e7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Marian University",
+        "inst_id": "2565",
+        " Shared Print Retention Count ": "18,333",
+        " Shared Print Unique Retentions ": "3,208"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.2028,
+          39.8131
+        ],
+        "type": "Point"
+      },
+      "id": "cf77b68d48cce1e0d5a59285a8022f99"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Manitoba",
+        "inst_name": "University of Manitoba",
+        "inst_id": "5765",
+        " Shared Print Retention Count ": "159,046",
+        " Shared Print Unique Retentions ": "112,636"
+      },
+      "geometry": {
+        "coordinates": [
+          -97.131938,
+          49.808393
+        ],
+        "type": "Point"
+      },
+      "id": "d3a08071a56bd066234b4b2142bc99d4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CI-CCI",
+        "State/Province": "Iowa",
+        "inst_name": "Drake University",
+        "inst_id": "761",
+        " Shared Print Retention Count ": "45,244",
+        " Shared Print Unique Retentions ": "288"
+      },
+      "geometry": {
+        "coordinates": [
+          -93.651885,
+          41.601378
+        ],
+        "type": "Point"
+      },
+      "id": "d6c54babfa9d30ac5c70ccb222f0f7cc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Canisius College",
+        "inst_id": "304",
+        " Shared Print Retention Count ": "38,885",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -78.852535,
+          42.925335
+        ],
+        "type": "Point"
+      },
+      "id": "d7205b17893fea66262012822a6a7844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "COPPUL",
+        "State/Province": "Saskatchewan",
+        "inst_name": "University of Saskatchewan",
+        "inst_id": "5769",
+        " Shared Print Retention Count ": "137,134",
+        " Shared Print Unique Retentions ": "75,488"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.631358,
+          52.1334
+        ],
+        "type": "Point"
+      },
+      "id": "da733b2fde6ac4d07d6fce837f088db5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Brandeis University",
+        "inst_id": "4910",
+        " Shared Print Retention Count ": "240,742",
+        " Shared Print Unique Retentions ": "99,649"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.2597,
+          42.3657
+        ],
+        "type": "Point"
+      },
+      "id": "de0a432cb7e91e528bed6286d0ef580b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Maryland",
+        "inst_name": "Loyola Notre Dame",
+        "inst_id": "5743",
+        " Shared Print Retention Count ": "96,034",
+        " Shared Print Unique Retentions ": "11,931"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.610516,
+          39.300213
+        ],
+        "type": "Point"
+      },
+      "id": "dec2ed09cfe181c14f07eaedccbb960c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Wabash College",
+        "inst_id": "2578",
+        " Shared Print Retention Count ": "42,879",
+        " Shared Print Unique Retentions ": "7,196"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.9067,
+          40.0378
+        ],
+        "type": "Point"
+      },
+      "id": "e120a0797a506aece02fc2aaa3c49194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University Southeast",
+        "inst_id": "2559",
+        " Shared Print Retention Count ": "30,605",
+        " Shared Print Unique Retentions ": "5,231"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.817,
+          38.3457
+        ],
+        "type": "Point"
+      },
+      "id": "e4bb86ca0aa0d2bd481bbb4cf5ae1614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "VIVA",
+        "State/Province": "Virginia",
+        "inst_name": "University of Virginia",
+        "inst_id": "2246",
+        " Shared Print Retention Count ": "706,308",
+        " Shared Print Unique Retentions ": "154,778"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.507977,
+          38.033552
+        ],
+        "type": "Point"
+      },
+      "id": "e6e1d4a9e1bc417aed429a2d5acdc82e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "American Univ",
+        "inst_id": "2353",
+        " Shared Print Retention Count ": "339,024",
+        " Shared Print Unique Retentions ": "20,474"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.090877,
+          38.936845
+        ],
+        "type": "Point"
+      },
+      "id": "e9191c0f6cc051852cd434983b68b847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "New Hampshire",
+        "inst_name": "Phillips Exeter Academy",
+        "inst_id": "4923",
+        " Shared Print Retention Count ": "32,710",
+        " Shared Print Unique Retentions ": "5,527"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.95117,
+          42.98156
+        ],
+        "type": "Point"
+      },
+      "id": "ec473487c3cd634201a32f7817f97f0a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Maine",
+        "inst_name": "Colby",
+        "inst_id": "4913",
+        " Shared Print Retention Count ": "41,581",
+        " Shared Print Unique Retentions ": "4,624"
+      },
+      "geometry": {
+        "coordinates": [
+          -69.6631,
+          44.5642
+        ],
+        "type": "Point"
+      },
+      "id": "ed11952f79e94d020657519067bf614d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Christian Theological Seminary (CTS)",
+        "inst_id": "2547",
+        " Shared Print Retention Count ": "71,893",
+        " Shared Print Unique Retentions ": "21,383"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.1783,
+          39.8332
+        ],
+        "type": "Point"
+      },
+      "id": "f00c80d51674818b376488261a55cae7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CI-CCI",
+        "State/Province": "Iowa",
+        "inst_name": "Grand View",
+        "inst_id": "762",
+        " Shared Print Retention Count ": "14,932",
+        " Shared Print Unique Retentions ": "90"
+      },
+      "geometry": {
+        "coordinates": [
+          -93.604661,
+          41.620822
+        ],
+        "type": "Point"
+      },
+      "id": "f06e788f37789cdc24f0eb67f594fdfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Trine University",
+        "inst_id": "2573",
+        " Shared Print Retention Count ": "7,138",
+        " Shared Print Unique Retentions ": "1,305"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.0079,
+          41.6324
+        ],
+        "type": "Point"
+      },
+      "id": "f1613b69293aa449ec61ffae95765537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Ferris State University",
+        "inst_id": "4860",
+        " Shared Print Retention Count ": "28,416",
+        " Shared Print Unique Retentions ": "4,175"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.485634,
+          43.684843
+        ],
+        "type": "Point"
+      },
+      "id": "f3d9a970d7c584422fca3b5a392a3feb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CI-CCI",
+        "State/Province": "Iowa",
+        "inst_name": "Central College",
+        "inst_id": "760",
+        " Shared Print Retention Count ": "26,315",
+        " Shared Print Unique Retentions ": "74"
+      },
+      "geometry": {
+        "coordinates": [
+          -92.920476,
+          41.401109
+        ],
+        "type": "Point"
+      },
+      "id": "f4341d7e532caacf6c65228fa93a978d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "EAST",
+        "State/Province": "Massachusetts",
+        "inst_name": "Boston College",
+        "inst_id": "4908",
+        " Shared Print Retention Count ": "301,422",
+        " Shared Print Unique Retentions ": "119,245"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.1704,
+          42.3351
+        ],
+        "type": "Point"
+      },
+      "id": "f6c674b9c8d98233f863deab81ac75ca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CNY",
+        "State/Province": "New York",
+        "inst_name": "Bard College",
+        "inst_id": "303",
+        " Shared Print Retention Count ": "49,093",
+        " Shared Print Unique Retentions ": " -   "
+      },
+      "geometry": {
+        "coordinates": [
+          -73.906523,
+          42.021202
+        ],
+        "type": "Point"
+      },
+      "id": "f7cbf460af40895b2e4ce57e97871cca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "ALI",
+        "State/Province": "Indiana",
+        "inst_name": "Indiana University Northwest",
+        "inst_id": "2558",
+        " Shared Print Retention Count ": "40,329",
+        " Shared Print Unique Retentions ": "6,021"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.3376,
+          41.5573
+        ],
+        "type": "Point"
+      },
+      "id": "f88e9b72703f11f0070f75f717ee3384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "WRLC",
+        "State/Province": "District of Columbia",
+        "inst_name": "George Washington University",
+        "inst_id": "2356",
+        " Shared Print Retention Count ": "567,606",
+        " Shared Print Unique Retentions ": "100,176"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.048402,
+          38.899205
+        ],
+        "type": "Point"
+      },
+      "id": "f9af54fa258708ed02afe24ae6b655e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "CI-CCI",
+        "State/Province": "Iowa",
+        "inst_name": "Grinnell College",
+        "inst_id": "763",
+        " Shared Print Retention Count ": "45,696",
+        " Shared Print Unique Retentions ": "162"
+      },
+      "geometry": {
+        "coordinates": [
+          -92.72019,
+          41.748604
+        ],
+        "type": "Point"
+      },
+      "id": "fa24e91f0a8e59f8d1f9e04030b05004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group": "MI-SPI",
+        "State/Province": "Michigan",
+        "inst_name": "Western Michigan University",
+        "inst_id": "2630",
+        " Shared Print Retention Count ": "169,795",
+        " Shared Print Unique Retentions ": "942"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.61025,
+          42.283733
+        ],
+        "type": "Point"
+      },
+      "id": "fcbee0654a5450c2197e2aaca6e7c6f4"
+    }
+  ],
+  "type": "FeatureCollection"
+}

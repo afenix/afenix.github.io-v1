@@ -1,0 +1,309 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+	  	<title>North American Shared Print Collection</title>
+	  	<link rel="stylesheet" type="text/css" href="../resources/mapStyle.css">
+	  <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
+	  	<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+	<!-- Latest compiled and minified Bootstarp CSS -->
+	 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  	<script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+	  	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Optional Bootstarp theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		  
+		  <!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		  <![endif]-->
+	</head>
+
+	<body>
+		<div class="center">
+			<img class='worldcat-logo' src="../resources/WorldCat_Logo.png" alt="WorldCat Logo">
+			<h1 class='page-title'>North American Shared Retention Commitments</h1>	
+		</div>
+		
+		<div id='map'></div>
+		<!-- add html elements to the legend !-->
+		<div id='legend-background'></div>
+		<div class='legend'>
+		    <h5>Titles Retained</h5>
+		    <div><span id='circle1'></span><= 20k</div>   
+		    <div><span id='circle2'></span>20k - 100k</div>
+		    <div><span id='circle3'></span>100k - 200k</div>
+		    <div><span id='circle4'></span>200k - 500k</div>
+		    <div><span id='circle5'></span> > 500k</div>
+		</div>
+
+		<div class='descriptive-text-container'>
+		  <div class='descriptive-text'>
+		    <h2 id='location-title'></h2>
+		    <p id='location-description'></p>
+		    <small>Text credit: <a target='_blank' href='#'>a.fenix</a></small>
+		  </div>
+		</div>
+
+		<div class="col-md-6 total-container"> 
+			<h3 class='total-holdings-header'>Total titles retained: <strong> 18.5 million title-holdings</strong></h3>
+		    <div class="col-md-offset-3 col-md-6">
+		        <h2 class="btn btn-warning btn-sm btn-block button-margin total-button">Learn More</h2>
+		    </div>
+		</div>
+		<div class="col-md-6 distinct-container">
+			<h3 class='distinct-holdings-header'>Distinct titles retained:<strong> 7.5 million distinct holdings</strong></h3>
+	 		<div class="col-md-offset-3 col-md-6">
+			    <h2 class="btn btn-warning btn-sm btn-block button-margin distinct-button">Learn More</h2>
+			</div>
+		</div>
+
+
+
+		<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpc3RlcmZ4IiwiYSI6ImNpcW80cnExOTAxZW9meW5uamNhdDIwcXcifQ.X8cJ7YP65MrR3bBq4a1rmQ';
+			var map = new mapboxgl.Map({
+					container: 'map',
+					style: 'mapbox://styles/mapbox/light-v9', //hosted style id
+				   	center: [-100.546875, 44.510218], // starting position
+				    minzoom: 3,
+				    zoom: 3 // starting zoom
+				});
+
+			var title = document.getElementById('location-title');
+			var description = document.getElementById('location-description');
+
+			var libraries = [{
+			    "id": "1",
+			    "title": "EAST",
+			    "description": "Vanquish the impossible and billions upon billions upon billions upon billions upon billions upon billions upon billions.",
+			    "camera": {
+			        center: [-73.520508, 42.186811],
+			        zoom: 4,
+			        bearing: 0,
+			        pitch: 0
+			    } 
+			}, {
+			    "id": "2",
+			    "title": "MSCS",
+			    "description": "From which we spring vastness is bearable only through love at the edge of forever, Hypatia the sky calls to us, star stuff harvesting star light the carbon in our apple pies how far away?",
+			    "camera": {
+			        center: [-69.2578131, 45.563583],
+			        zoom: 6,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "3",
+			    "title": "CNY",
+			    "description": "Cambrian explosion, a mote of dust suspended in a sunbeam the only home we've ever known made in the interiors of collapsing stars culture vanquish the impossible bits of moving fluff.",
+			    "camera": {
+			        center: [-75.541992, 43.304694],
+			        zoom: 5,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "4",
+			    "title": "VIVA",
+			    "description": "From which we spring vastness is bearable only through love at the edge of forever, Hypatia the sky calls to us, star stuff harvesting star light the carbon in our apple pies how far away?",
+			    "camera": {
+			        center: [-78.002930, 37.785639],
+			        zoom: 5.3,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "5",
+			    "title": "WRLC",
+			    "description": "From which we spring vastness is bearable only through love at the edge of forever, Hypatia the sky calls to us, star stuff harvesting star light the carbon in our apple pies how far away?",
+			    "camera": {
+			        center: [-77.053986, 38.932407],
+			        zoom: 10,
+			        bearing: 0,
+			        pitch: 0
+			    }
+		 	}, {
+			    "id": "6",
+			    "title": "TUG",
+			    "description": "From which we spring vastness is bearable only through love at the edge of forever, Hypatia the sky calls to us, star stuff harvesting star light the carbon in our apple pies how far away?",
+			    "camera": {
+			        center: [-80.362244, 43.488237],
+			        zoom: 7,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "7",
+			    "title": "MI-SPI",
+			    "description": "From which we spring vastness is bearable only through love at the edge of forever, Hypatia the sky calls to us, star stuff harvesting star light the carbon in our apple pies how far away?",
+			    "camera": {
+			        center: [-85.869141, 44.382275],
+			        zoom: 4.5,
+			        bearing: 0,
+			        pitch: 0
+			    } 
+			}, {
+			    "id": "8",
+			    "title": "ALI",
+			    "description": " Dispassionate extraterrestrial observer Drake Equation Hypatia worldlets star stuff harvesting star light, across the centuries star stuff harvesting star light, circumnavigated, permanence of the stars.",
+			    "camera": {
+			        center: [-86.220703, 39.921849],
+			        zoom: 4.5,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "9",
+			    "title": "CI-CCI",
+			    "description": "Vastness is bearable only through love billions upon billions.",
+			    "camera": {
+			        center: [-93.449707, 41.339185],
+			        zoom: 6,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}, {
+			    "id": "10",
+			    "title": "COPPUL",
+			    "description": "As a patch of light dispassionate extraterrestrial observer concept of the number one!",
+			    "camera": {
+			        center: [-110.039063, 49.999795],
+			        zoom: 4.5,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			 }, {
+			    "title": "North American Shared Print Collection",
+			    "description": "Ten Group Projects now exist in North America with membership of over 130 academic institutions spanning thirteen U.S. states and five Canadian provinces.  Through a collaborative process of shared print strategies these institutions have been able to retain print collections of 18.5 million title-holdings, with 7.4 million of those titles retained being distinct editions.",
+			    "camera": {
+			        center: [-100.546875, 44.510218],
+			        zoom: 3,
+			        bearing: 0,
+			        pitch: 0
+			    }
+			}];
+
+			function highlightGroup(group_name) {
+			    // Only show the point features that coorespond to `group` in the data
+			    map.setFilter('shared_collection', ["==", 'group', group_name]);
+			}
+
+			function playback(index) {
+			    title.textContent = libraries[index].title;
+			    description.textContent = libraries[index].description;
+			    highlightGroup(libraries[index].title ? libraries[index].title : '');
+
+			    // Animate the map position based on camera properties
+			    map.flyTo(libraries[index].camera);
+
+			    map.once('moveend', function() {
+			        // Duration the slide is on screen after interaction
+			        window.setTimeout(function() {
+			            // Increment index
+			            index = (index + 1 === libraries.length) ? 0 : index + 1;
+			            playback(index);
+			        }, 5000); // After callback, show the location for 5 seconds.
+			    });
+			}
+
+			// Display the last title/description first
+			title.textContent = libraries[libraries.length - 1].title;
+			description.textContent = libraries[libraries.length - 1].description;
+
+			 map.on('load', function () {
+		         map.addLayer({
+		            'id': 'shared_collection',
+		            'type': 'circle',
+		            //Load the vector tile source from mapbox
+		            'source': {
+		                type: 'vector',
+		                url: 'mapbox://alisterfx.aa1m7nfd' //Your Mapbox tileset Map ID
+		            },
+		            'source-layer': 'Shared_Print_Retentions_by_Li-2ub8zq', //name of tileset
+		            'paint' : {
+		                'circle-radius' : {
+		                	property: 'total_count_num',
+				            type: 'interval',
+				            stops: [ // if you use the 'identity' function type, you do do not need 'stops'
+			                    // [19454, 5],
+			                    // [26315, 7.5],
+			                    // [104004, 10],
+			                    // [112804, 12.5],
+			                    // [172346, 14.2],
+			                    // [198071, 16],
+			                    // [261933, 19.5],
+			                    // [567606, 21.5],
+			                    // [860424, 23],
+			                    // [1408737, 25]
+			                 
+			                    [20000, 5],
+			                    [100000, 7.5],
+			                    [200000, 10],
+			                    [500000, 13.5],
+			                    [1408737, 17]
+			                ]
+		                },
+		                'circle-color': {
+			                property: 'group',
+			                type: 'categorical',
+			                stops: [
+			                    ['ALI', '#A6CEE3'],
+			                    ['CI-CCI', '#1F78B4'],
+			                    ['CNY', '#B2DF8A'],
+			                    ['COPPUL', '#33A02C'],
+			                    ['EAST', '#FB9A99'],
+			                    ['MI-SPI', '#E31A1C'],
+			                    ['MSCS', '#FDBF6F'],
+			                    ['TUG', '#FF7F00'],
+			                    ['VIVA', '#CAB2D6'],
+			                    ['WRLC', '#6A3D9A']]
+			            },
+		                'circle-opacity' : 0.8
+		              },
+		        });
+		    });
+
+			$( "h2.total-button" ).click(function() {
+				playback(0);
+			});
+
+			map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+			map.on('click', function(e) {
+			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
+
+			    // if the features have no info, return nothing
+			    if (!features.length) {
+			        return;
+			    }
+
+			    var feature = features[0];
+
+			    // Populate the popup and set its coordinates
+			    // based on the feature found
+			    var popup = new mapboxgl.Popup()
+			        .setLngLat(feature.geometry.coordinates)
+			        .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h4> ' + feature.properties['inst_name'] + '</h4>' +
+			            '<ul class="list">' +
+			            '<li class="list-total-retentions"> Total titles retained: ' + feature.properties['total_count_string'] + ' </li>' +
+			            '<li class="list-distinct-retentions"> Total unique titles retained: ' + feature.properties['unique_count_string'] + " </li>" + '</ul> </div>')
+			        .addTo(map);
+			});
+
+			// Use the same approach as above to indicate that the symbols are clickable
+			// by changing the cursor style to 'pointer'
+			map.on('mousemove', function(e) {
+			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
+			    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+			});
+
+
+		</script>
+	<!-- Latest compiled and minified Bootstrap JavaScript -->
+<!-- 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ -->
+	</body>
+</html>
