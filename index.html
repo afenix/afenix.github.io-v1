@@ -37,6 +37,12 @@
 		    <div><span id='circle3'></span>100k - 200k</div>
 		    <div><span id='circle4'></span>200k - 500k</div>
 		    <div><span id='circle5'></span> > 500k</div>
+		<div class='group-legend'>
+	        <fieldset>
+	            <label id="group-legend-title">Select a Group to zoom to:</label>
+	            <div id="swatches">
+	            </div>
+	        </fieldset>
 		</div>
 
 		<div class='descriptive-text-container'>
@@ -297,6 +303,42 @@
 			map.on('mousemove', function(e) {
 			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
 			    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+			});
+
+			// Add a clickable group legend to the map
+			var swatches = document.getElementById('swatches');
+			var group_legend = [
+				{'EAST':'#FB9A99'},
+				{"MSCS":'#FDBF6F'},
+	            {"CNY":'#B2DF8A'},
+	            {"VIVA":'#CAB2D6'},
+	            {"WRLC":'#6A3D9A'},
+	            {"TUG":'#FF7F00'},
+	            {"MI-SPI":'#E31A1C'},
+			    {"ALI":'#A6CEE3'},
+	            {"CI-CCI":'#1F78B4'},
+	            {"COPPUL":'#33A02C'}
+			];
+
+			var group_color;
+			var group_name;
+
+			$.each(group_legend, function(key, color) {
+			    var swatch = document.createElement('button');
+			    $(swatch).addClass('btn btn-xs text-center');
+			    $.each(color, function(key, value) {
+					var group_name = key;
+					var group_color = value;
+				    swatch.style.backgroundColor = group_color;
+				    swatch.style.textContent = group_name;
+				    $(swatch).text(key);
+				    swatch.style.margin = '0px 45px 25px 0px';
+				});
+
+			    swatch.addEventListener('click', function() {
+			        map.flyTo(libraries[key].camera);
+			    });
+			    swatches.appendChild(swatch);
 			});
 
 
