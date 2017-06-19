@@ -1,14 +1,15 @@
 
+button {
+    margin:0 auto;
+    display:inline-block;
+}
+
 .center {
     margin: 0px auto;
     width: 90%;
     padding: 15px 0px 65px 100px;
 }
 
-button {
-    margin:0 auto;
-    display:block;
-}
 
 .worldcat-logo {
 	max-width:12%; 
@@ -203,12 +204,6 @@ h2#location-title {
   max-width: 400px;
   font: 14px/20px 'Lato', sans-serif;
   color: #666666;
-}
-
-
-.map-overlay h2,
-.map-overlay p {
-    margin: 0 0 10px;
 }
 
 #menu {

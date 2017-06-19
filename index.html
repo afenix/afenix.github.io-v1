@@ -235,18 +235,7 @@
 		                'circle-radius' : {
 		                	property: 'total_count_num',
 				            type: 'interval',
-				            stops: [ // if you use the 'identity' function type, you do do not need 'stops'
-			                    // [19454, 5],
-			                    // [26315, 7.5],
-			                    // [104004, 10],
-			                    // [112804, 12.5],
-			                    // [172346, 14.2],
-			                    // [198071, 16],
-			                    // [261933, 19.5],
-			                    // [567606, 21.5],
-			                    // [860424, 23],
-			                    // [1408737, 25]
-			                 
+				            stops: [ 
 			                    [20000, 5],
 			                    [100000, 7.5],
 			                    [200000, 10],
@@ -269,7 +258,7 @@
 			                    ['VIVA', '#CAB2D6'],
 			                    ['WRLC', '#6A3D9A']]
 			            },
-		                'circle-opacity' : 0.8
+		                'circle-opacity' : 0.55
 		              },
 		        });
 		    });
@@ -278,22 +267,22 @@
 				playback(0);
 			});
 
+			// add nav features to the map
 			map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+
+			// add pop-up info buttons to the map
 			map.on('click', function(e) {
 			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
-
-			    // if the features have no info, return nothing
+			    // if the features has no info, return nothing
 			    if (!features.length) {
 			        return;
 			    }
-
 			    var feature = features[0];
-
 			    // Populate the popup and set its coordinates
 			    // based on the feature found
 			    var popup = new mapboxgl.Popup()
 			        .setLngLat(feature.geometry.coordinates)
-			        .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h4> ' + feature.properties['inst_name'] + '</h4>' +
+			        .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h4> ' + feature.properties['group'] + ' Group</h4><h5> Library: ' + feature.properties['inst_name'] + '</h5>' +
 			            '<ul class="list">' +
 			            '<li class="list-total-retentions"> Total titles retained: ' + feature.properties['total_count_string'] + ' </li>' +
 			            '<li class="list-distinct-retentions"> Total unique titles retained: ' + feature.properties['unique_count_string'] + " </li>" + '</ul> </div>')
