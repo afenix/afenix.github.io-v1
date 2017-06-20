@@ -28,16 +28,6 @@
 			<h1 class='page-title'>North American Shared Retention Commitments</h1>	
 		</div>
 		
-		<div class="banner">
-			<div class="col-md-6 total-container"> 
-			    <h2 class="btn btn-warning btn-sm button-margin total-button pull-right">Learn More</h2>
-				<h3 class='total-holdings-header'>Total titles retained: <strong> 18.5 million title-holdings</strong></h3>
-			</div>
-			<div class="col-md-6 distinct-container">
-				<h2 class="btn btn-warning btn-sm button-margin distinct-button pull-right">Learn More</h2>
-				<h3 class='distinct-holdings-header'>Distinct titles retained:<strong> 7.5 million distinct holdings</strong></h3>
-			</div>
-		</div>
 
 		<div class='descriptive-text-container'>
 		  <div class='descriptive-text'>
@@ -68,6 +58,16 @@
 	        </fieldset>
 		</div>
 
+		<div class="banner">
+			<div class="col-md-6 total-container"> 
+			    <h2 class="btn btn-warning btn-sm button-margin total-button pull-right">Learn More</h2>
+				<h3 class='total-holdings-header'>Total titles retained: <strong> 18.5 million title-holdings</strong></h3>
+			</div>
+			<div class="col-md-6 distinct-container">
+				<h2 class="btn btn-warning btn-sm button-margin distinct-button pull-right">Learn More</h2>
+				<h3 class='distinct-holdings-header'>Distinct titles retained:<strong> 7.5 million distinct holdings</strong></h3>
+			</div>
+		</div>
 
 
 
@@ -340,7 +340,7 @@
 
 			    swatch.addEventListener('click', function() {
 			        map.flyTo(libraries[key].camera);
-			    	title.textContent = libraries[key].title;
+			        title.textContent = libraries[key].title;
 			    	description.textContent = libraries[key].description;
 			    });
 			    swatches.appendChild(swatch);
