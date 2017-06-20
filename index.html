@@ -6,7 +6,7 @@
 
 	  	<title>North American Shared Print Collection</title>
 	  	<link rel="stylesheet" type="text/css" href="../resources/mapStyle.css">
-	  	<link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
+	  	<link href="https://fonts.googleapis.com/css?family=Lato|Titillium+Web:600|Dosis:400,700,800" rel="stylesheet">
 	  	<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
 	<!-- Latest compiled and minified Bootstarp CSS -->
 	 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,22 +25,22 @@
 	<body>
 		<div class="center-page-title">
 			<img class='worldcat-logo' src="../resources/WorldCat_Logo.png" alt="WorldCat Logo">
-			<h1 class='page-title'>North American Shared Retention Commitments</h1>	
+			<h2 class='page-title'>North American Shared Retention Commitments</h2>	
 		</div>
 		
 
-		<div class='descriptive-text-container'>
-		  <div class='descriptive-text'>
-		    <h4 id='location-title'></h4>
-		    <p id='location-description'></p>
-		    <small>Text credit: <a target='_blank' href='#'>a.fenix</a></small>
+		<div class='intro-text-container'>
+		  <div class='intro-text'>
+		    <p id='overview-description'>Ten Group Projects now exist in North America with membership of over 130 academic institutions spanning thirteen U.S. states and five Canadian provinces.  
+		    	Through a collaborative process of shared print strategies these institutions have been able to retain print collections of <strong>18.5 million</strong> title-holdings, with <strong>7.4 million</strong> of those 
+		    	titles retained being distinct editions.</p>
 		  </div>
 		</div>
 
 		
 		
 		<div id='map'></div>
-		<!-- add html elements to the legend !-->
+
 		<div class='titles-legend'>
 		    <h5>Titles Retained</h5>
 		    <div><span id='circle1'></span><= 20k</div>   
@@ -58,13 +58,22 @@
 	        </fieldset>
 		</div>
 
+		<div class='descriptive-text-container'>
+		  <div class='descriptive-text'>
+		    <h4 id='location-title'></h4>
+		    <p id='location-description'></p>
+		  <!--   <small>Text credit: <a target='_blank' href='#'>a.fenix</a></small> -->
+		  </div>
+		</div>
+
+
 		<div class="banner">
 			<div class="col-md-6 total-container"> 
-			    <h2 class="btn btn-warning btn-sm button-margin total-button pull-right">Learn More</h2>
+<!-- 			    <h2 class="btn btn-warning btn-sm button-margin total-button pull-right">Learn More</h2> -->
 				<h3 class='total-holdings-header'>Total titles retained: <strong> 18.5 million title-holdings</strong></h3>
 			</div>
 			<div class="col-md-6 distinct-container">
-				<h2 class="btn btn-warning btn-sm button-margin distinct-button pull-right">Learn More</h2>
+<!-- 				<h2 class="btn btn-warning btn-sm button-margin distinct-button pull-right">Learn More</h2> -->
 				<h3 class='distinct-holdings-header'>Distinct titles retained:<strong> 7.5 million distinct holdings</strong></h3>
 			</div>
 		</div>
@@ -77,7 +86,8 @@
 					container: 'map',
 					style: 'mapbox://styles/mapbox/light-v9', //hosted style id
 				   	center: [-100.546875, 44.510218], // starting position
-				    minzoom: 3,
+				    minzoom: 10,
+				    maxzoom: 3,
 				    zoom: 3 // starting zoom
 				});
 
@@ -87,7 +97,7 @@
 			var libraries = [{
 			    "id": "1",
 			    "title": "EAST",
-			    "description": "Vanquish the impossible and billions upon billions upon billions upon billions upon billions upon billions upon billions.",
+			    "description": "The Eastern Academic Scholars' Trust (EAST) is a shared print initiative involving academic and research libraries in 11 states from Maine to Florida. EAST is focused on retaining unique, scarcely held and frequently used scholarly monographs and serials in support of scholarship, research and teaching. EAST currently has 59 members with a shared print collection of 16,573,071 million title holdings and 4,749,042 million title sets.  Due to their ongoing efforts for participating members to commit to retain agreed upon titles the EAST project has been able to retain a shared print collection of 5,746,636 title-holdings, with 1,760,944 million of those titles retained being distinct editions.",
 			    "camera": {
 			        center: [-73.520508, 42.186811],
 			        zoom: 4,
@@ -281,30 +291,37 @@
 			// add nav features to the map
 			map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
 
-			// add pop-up info buttons to the map
-			map.on('click', function(e) {
+
+			// Create a popup object, but don't add it to the map yet.
+		    var popup = new mapboxgl.Popup({
+		        closeButton: false,
+		        closeOnClick: false
+		    });
+
+		    // add a info popup to map on hover 
+			map.on('mouseenter', 'shared_collection', function(e) {
+			    // Change the cursor style as a UI indicator.
+			    map.getCanvas().style.cursor = 'pointer';
+
 			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
-			    // if the features has no info, return nothing
+			     // if the features has no info, return nothing
 			    if (!features.length) {
 			        return;
 			    }
-			    var feature = features[0];
+			    var feature = features[0];			        
 			    // Populate the popup and set its coordinates
-			    // based on the feature found
-			    var popup = new mapboxgl.Popup()
-			        .setLngLat(feature.geometry.coordinates)
-			        .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h4> ' + feature.properties['group'] + ' Group</h4><h5> Library: ' + feature.properties['inst_name'] + '</h5>' +
-			            '<ul class="list">' +
-			            '<li class="list-total-retentions"> Total titles retained: ' + feature.properties['total_count_string'] + ' </li>' +
-			            '<li class="list-distinct-retentions"> Total unique titles retained: ' + feature.properties['unique_count_string'] + " </li>" + '</ul> </div>')
+			    // based on the feature found.
+			    popup.setLngLat(feature.geometry.coordinates)
+			         .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h5 style="text-align:center"> ' + feature.properties['group'] + ' Group</h5><h5 style="margin-left:15px;"><strong>' + feature.properties['inst_name'] + '</strong></h5>' +
+				              '<ul class="list">' +
+				              '<li class="list-total-retentions"> Total titles retained: ' + feature.properties['total_count_string'] + ' </li>' +
+				              '<li class="list-distinct-retentions"> Total unique titles retained: ' + feature.properties['unique_count_string'] + " </li>" + '</ul> </div>')
 			        .addTo(map);
 			});
 
-			// Use the same approach as above to indicate that the symbols are clickable
-			// by changing the cursor style to 'pointer'
-			map.on('mousemove', function(e) {
-			    var features = map.queryRenderedFeatures(e.point, { layers: ['shared_collection'] });
-			    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+			map.on('mouseleave', 'shared_collection', function() {
+			    map.getCanvas().style.cursor = '';
+			    popup.remove();
 			});
 
 			// Add a clickable group legend to the map
@@ -333,7 +350,7 @@
 					var group_name = key;
 					var group_color = value;
 				    swatch.style.backgroundColor = group_color;
-				    swatch.style.textContent = group_name;
+				    // swatch.style.textContent = group_name;
 				    $(swatch).text(key);
 				    swatch.style.margin = '0px 35px 25px 0px';
 				});
