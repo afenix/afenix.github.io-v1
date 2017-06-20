@@ -185,7 +185,8 @@
 			        pitch: 0
 			    }
 			 }, {
-			    "title": "North American Shared Print Collection",
+			 	"id": "11",
+			    "title": "Overview",
 			    "description": "Ten Group Projects now exist in North America with membership of over 130 academic institutions spanning thirteen U.S. states and five Canadian provinces.  Through a collaborative process of shared print strategies these institutions have been able to retain print collections of 18.5 million title-holdings, with 7.4 million of those titles retained being distinct editions.",
 			    "camera": {
 			        center: [-100.546875, 44.510218],
@@ -200,10 +201,19 @@
 			    map.setFilter('shared_collection', ["==", 'group', group_name]);
 			}
 
+			function highlightAll(overview) {
+				// TODO: come up with a more elegant solution for nulling out the setFilter 
+			    map.setFilter('shared_collection', ["==", 'overview', overview]);
+			}
+
 			function playback(index) {
 			    title.textContent = libraries[index].title;
 			    description.textContent = libraries[index].description;
-			    highlightGroup(libraries[index].title ? libraries[index].title : '');
+			    if (libraries[index].title != "Overview") {
+				    highlightGroup(libraries[index].id ? libraries[index].title : '');		    	
+			    } else {
+			    	highlightAll(1);	
+			    }
 
 			    // Animate the map position based on camera properties
 			    map.flyTo(libraries[index].camera);
@@ -309,7 +319,8 @@
 	            {"MI-SPI":'#E31A1C'},
 			    {"ALI":'#A6CEE3'},
 	            {"CI-CCI":'#1F78B4'},
-	            {"COPPUL":'#33A02C'}
+	            {"COPPUL":'#33A02C'},
+	            {"Overview": '#666666'}
 			];
 
 			var group_color;
@@ -324,7 +335,7 @@
 				    swatch.style.backgroundColor = group_color;
 				    swatch.style.textContent = group_name;
 				    $(swatch).text(key);
-				    swatch.style.margin = '0px 45px 25px 0px';
+				    swatch.style.margin = '0px 35px 25px 0px';
 				});
 
 			    swatch.addEventListener('click', function() {
