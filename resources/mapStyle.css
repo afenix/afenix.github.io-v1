@@ -1,15 +1,9 @@
-
-button {
-    margin:0 auto;
-    display:inline-block;
-}
-
-.center {
+.center-page-title {
     margin: 0px auto;
-    width: 90%;
-    padding: 15px 0px 65px 100px;
+    width: 100vw;
+    padding: 15px 0px 65px 225px;
+    background-color: #CAD5D1;
 }
-
 
 .worldcat-logo {
 	max-width:12%; 
@@ -20,7 +14,7 @@ button {
 
 .page-title { 
 	float: left;
-	margin: 5px 0px 0px 5px;
+	margin: 8px 0px 0px 5px;
 	font-family: 'Dosis', sans-serif; 
 	color:#666666;
 }
@@ -80,6 +74,11 @@ h2.button-margin {
     font-family: 'Dosis', sans-serif; 
     text-transform: uppercase;
     font-weight: 900;
+}
+
+button {
+    margin:0 auto;
+    display:inline-block;
 }
 
 #map { 
