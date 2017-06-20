@@ -340,6 +340,8 @@
 
 			    swatch.addEventListener('click', function() {
 			        map.flyTo(libraries[key].camera);
+			    	title.textContent = libraries[key].title;
+			    	description.textContent = libraries[key].description;
 			    });
 			    swatches.appendChild(swatch);
 			});
