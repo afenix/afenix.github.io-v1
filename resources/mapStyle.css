@@ -1,30 +1,54 @@
 .center-page-title {
     margin: 0px auto;
     width: 100vw;
-    padding: 15px 0px 65px 225px;
-    background-color: #CAD5D1;
+    display: inline-block;
+    // padding: 10px 0px 55px 25px;
+    // border-bottom: 1px solid #CAD2D3;
+    background-color: #CAD2D3;
 }
 
 .worldcat-logo {
-	max-width:12%; 
-	max-height:12%; 
-	float:left;
-	margin: 5px 20px 10px 5px;
+	max-width:8%; 
+	max-height:8%; 
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
-.page-title { 
-	float: left;
-	margin: 8px 0px 0px 5px;
-	font-family: 'Dosis', sans-serif; 
-	color:#666666;
+h2.page-title { 
+	font-family: 'Titillium Web', sans-serif;
+	color: #277AB3;
+  text-align: center;
+  margin-top: 10px !important;
+  font-weight: 800;
+}
+
+.intro-text-container {
+    margin: 10px 15px 0px 15px;
+    padding: 0px 10px 0px 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 70px;
+}
+
+.intro-text {
+    font-family: 'Dosis', sans-serif; 
+    color: #666666;
+    background-color: #fff;
+    font-size: 17.5px;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 .total-container h2 {
     margin-top:0;
+    text-align: center;
 }
 
 .total-container h3 {
     margin-top: 10px;
+    text-align: center;
 }
 
 .total-container {
@@ -34,10 +58,12 @@
 
 .distinct-container h2 {
     margin-top:0;
+    text-align: center;
 }
 
 .distinct-container h3 {
     margin-top: 10px;
+    text-align: center;
 }
 
 .distinct-container {
@@ -85,39 +111,49 @@ button {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
-    height: 320px;
+    height: 250px;
     left: 50%;
 }
 
 .descriptive-text-container {
-    margin: 0px 15px 15px 15px;
+    margin: 0px 15px 15px 23px;
     padding: 0px 10px 10px 10px;
     top: 0;
     left: 0;
     z-index: 1;
-    height: 100px;
+    height: 130px;
 }
 
 .descriptive-text {
     font-family: 'Dosis', sans-serif; 
+    font-weight: light;
     color: #666666;
     background-color: #fff;
-    font-size: 110%;
+    font-size: 90%;
 }
 
-h2#location-title {
-    margin-top: 0px;
+h4#location-title {
+    font-family: 'Dosis', sans-serif; 
+    margin-top: 10px;
+    margin-bottom: 5px !important;
+    font-weight: 700;
+}
+
+p#location-description {
+  font-family: 'Dosis', sans-serif; 
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .titles-legend {
   background-color: #fff;
   border-radius: 3px;
-  top: 280px;
+  top: 145px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font: 12px/20px 'Lato', sans-serif;
   padding: 10px;
   position: absolute;
-  left: 10px;
+  left: 15px;
   z-index: 1;
   text-align: left;
   overflow: hidden;
@@ -184,7 +220,8 @@ h2#location-title {
     top: 0;
     left: 0;
     padding-top: 15px;
-    padding-left: 35px;
+    padding-left: 30px;
+    height: 80px;
     // border-bottom: 1px solid #666666;
     color: #ffffff;
 }
