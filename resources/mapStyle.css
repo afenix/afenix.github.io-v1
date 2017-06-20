@@ -52,7 +52,7 @@ button {
 }
 
 .total-holdings-header { 
-	text-align: center; 
+	padding-left: 10px;
 	font-family: 'Dosis', sans-serif; 
 	color:#FFFFFF;
 }
@@ -64,7 +64,7 @@ button {
 }
 
 .distinct-holdings-header { 
-    text-align: center; 
+    padding-left: 10px;
     font-family: 'Dosis', sans-serif; 
     color:#FFFFFF; 
 }
@@ -86,34 +86,34 @@ h2.button-margin {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
-    height: 300px;
+    height: 320px;
     left: 50%;
 }
 
 .descriptive-text-container {
-    margin: 0px 25px;
+    margin: 50px 15px 35px 15px;
     padding: 10px;
     top: 0;
     left: 0;
     z-index: 1;
-    height: 195px;
+    height: 100px;
 }
 
 .descriptive-text {
     font-family: 'Dosis', sans-serif; 
     color: #666666;
     background-color: #fff;
-    font-size: 150%;
+    font-size: 110%;
 }
 
 h2#location-title {
     margin-top: 0px;
 }
 
-.legend {
+.titles-legend {
   background-color: #fff;
   border-radius: 3px;
-  top: 90px;
+  top: 280px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font: 12px/20px 'Lato', sans-serif;
   padding: 10px;
@@ -125,14 +125,13 @@ h2#location-title {
   opacity: 0.9;
 }
 
-.legend h5 {
+.titles-legend h5 {
   margin: 0 0 10px;
 }
 
-.legend div span {
+.titles-legend div span {
   border-radius: 50%;
   display: inline-block;
-  // margin: 0 auto;
 }
 
 #circle1 {
@@ -187,7 +186,7 @@ h2#location-title {
     left: 0;
     padding: 10px;
     padding-left: 35px;
-    border-bottom: 1px solid #666666;
+    // border-bottom: 1px solid #666666;
     color: #ffffff;
 }
 
