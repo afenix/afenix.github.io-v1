@@ -4,7 +4,7 @@
     display: inline-block;
     // padding: 10px 0px 55px 25px;
     // border-bottom: 1px solid #CAD2D3;
-    background-color: #CAD2D3;
+    background-color: #86978E;
 }
 
 .worldcat-logo {
@@ -17,7 +17,8 @@
 
 h2.page-title { 
 	font-family: 'Titillium Web', sans-serif;
-	color: #277AB3;
+  color: #277AB3;
+  color: white;
   text-align: center;
   margin-top: 10px !important;
   font-weight: 800;
@@ -52,7 +53,7 @@ h2.page-title {
 }
 
 .total-container {
-    background-color: #838689;
+    background-color: #86978E;
     border: 2px solid white
 }
 
@@ -67,7 +68,7 @@ h2.page-title {
 }
 
 .distinct-container {
-    background-color: #838689;
+    background-color: #86978E;
     border: 2px solid white;
 }
 
