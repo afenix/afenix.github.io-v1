@@ -325,42 +325,101 @@
 			});
 
 			// Add a clickable group legend to the map
-			var swatches = document.getElementById('swatches');
-			var group_legend = [
-				{'EAST':'#FB9A99'},
-				{"MSCS":'#FDBF6F'},
-	            {"CNY":'#B2DF8A'},
-	            {"VIVA":'#CAB2D6'},
-	            {"WRLC":'#6A3D9A'},
-	            {"TUG":'#FF7F00'},
-	            {"MI-SPI":'#E31A1C'},
-			    {"ALI":'#A6CEE3'},
-	            {"CI-CCI":'#1F78B4'},
-	            {"COPPUL":'#33A02C'},
-	            {"Overview": '#666666'}
+			var group_legend_elements = document.getElementById('group-legend-elements');
+			var group_info = [
+				{
+			    	"group_name": "EAST",
+			        "group_color": "#FB9A99",
+			        "group_count": "5.75M"
+			    },
+			    {
+			    	"group_name": "MSCS",
+			        "group_color": "#FDBF6F",
+			        "group_count": "1.4M"
+			    },
+			    {
+			     	"group_name": "CNY",
+			        "group_color": "#B2DF8A",
+			        "group_count": "850K"
+			    },
+			    {
+			     	"group_name": "VIVA",
+			        "group_color": "#CAB2D6",
+			        "group_count": "3.5M"
+			    },
+			    {
+			     	"group_name": "WRLC",
+			        "group_color": "#6A3D9A",
+			        "group_count": "2.9M"
+			    },
+			    {
+			     	"group_name": "TUG",
+			        "group_color": "#FF7F00",
+			        "group_count": "340K"
+			    },
+			    {
+			     	"group_name": "MI-SPI",
+			        "group_color": "#E31A1C",
+			        "group_count": "774K"
+			    },
+			    {
+			     	"group_name": "ALI",
+			        "group_color": "#A6CEE3",
+			        "group_count": "1.7M"
+			    },
+			    {
+			     	"group_name": "CI-CCI",
+			        "group_color": "#1F78B4",
+			        "group_count": "153K"
+			    },
+			    {
+			     	"group_name": "COPPUL",
+			        "group_color": "#33A02C",
+			        "group_count": "1.14M"
+			    },
+			    {
+			    	"group_name": "Overview",
+			        "group_color": "#666666",
+			        "group_count": "18.5M"
+			    }
 			];
 
-			var group_color;
-			var group_name;
+			$.each(group_info, function(key, obj) {
+				var group_div = document.createElement('div');
+			    $(group_div).addClass('group_div');
+			    var group_button = document.createElement('button');
+			    $(group_button).addClass('btn btn-xs');
+			    var group_count = document.createElement('h6');
+			     $(group_count).addClass('group_count');
 
-			$.each(group_legend, function(key, color) {
-			    var swatch = document.createElement('button');
-			    $(swatch).addClass('btn btn-xs text-center');
-			    $.each(color, function(key, value) {
-					var group_name = key;
-					var group_color = value;
-				    swatch.style.backgroundColor = group_color;
-				    // swatch.style.textContent = group_name;
-				    $(swatch).text(key);
-				    swatch.style.margin = '0px 35px 25px 0px';
+			    $.each(obj, function(key, value) {
+			    	if (key === 'group_name') {
+				    	$(group_div).text(value);
+			    	} else if (key === 'group_count') {
+				    	$(group_count).text(value);
+			    	} else {
+				    	group_button.style.backgroundColor = value;
+			    	}
+			    	group_div.style.position = 'relative';
+					group_div.style.display = 'inline-block';
+					group_button.style.display = 'inline-block';
+				    group_button.style.margin = '0px 35px 25px 0px';
+				    group_div.style.color = '#666666';
 				});
 
-			    swatch.addEventListener('click', function() {
+			    group_div.addEventListener('click', function() {
 			        map.flyTo(libraries[key].camera);
-			        title.textContent = libraries[key].title;
-			    	description.textContent = libraries[key].description;
+			        if (libraries[key].title != 'Overview') {
+				        title.textContent = libraries[key].title;
+				    	description.textContent = libraries[key].description; 	
+			        } else {
+			        	title.textContent = '';
+				    	description.textContent = ''; 	
+			        }
 			    });
-			    swatches.appendChild(swatch);
+			    group_legend_elements.appendChild(group_div);
+			 	group_div.appendChild(group_count);
+			 	group_div.appendChild(group_button);
 			});
 
 
