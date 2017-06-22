@@ -232,6 +232,10 @@ p#location-description {
   cursor: pointer; 
 }
 
+.group-legend {
+  margin-bottom: 35px;
+}
+
 .group-legend button {
   width: 75px;
 }
