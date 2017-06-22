@@ -133,7 +133,7 @@
 				   	center: [-100.546875, 44.510218], // starting position
 				    minzoom: 10,
 				    maxzoom: 3,
-				    zoom: 3 // starting zoom
+				    zoom: 2.75 // starting zoom
 				});
 
 			var title = document.getElementById('location-title');
@@ -154,7 +154,7 @@
 			    "title": "MSCS",
 			    "description": "The Maine Shared Collections Cooperative (MSCC) was founded by eight of Maine’s largest libraries, plus the state’s consortium, Maine InfoNet, together they have implemented a shared approach to the management of print collections in the state. Due to their ongoing efforts for participating members to make collaborative decisions MSCS has been able to retain a shared print collection of 1,408,737 title-holdings, with 302,601 thousand of those titles retained being distinct editions.",
 			    "camera": {
-			        center: [-69.2578131, 45.563583],
+			        center: [-69.433594, 44.368778],
 			        zoom: 6,
 			        bearing: 0,
 			        pitch: 0
@@ -205,13 +205,13 @@
 			    "description": "In 2011, the libraries at Michigan's publicly-supported universities sought to devise a collaborative approach to shared print collections among themselves, calling themselves the Michigan Shared Print Initiative (MI-SPI). Participating libraries used services and tools developed by Sustainable Collection Services (SCS) to identify such titles in their respective individual collections, and to compare results across the group. Eleven universities participated in this endeavor across Michigan state, allowing participating members to retain 774,173 thousand title-holdings, with 79,227 thousand of those titles retained being distinct editions.  ",
 			    "camera": {
 			        center: [-85.869141, 44.382275],
-			        zoom: 4.5,
+			        zoom: 4.2,
 			        bearing: 0,
 			        pitch: 0
 			    } 
 			}, {
 			    "id": "8",
-			    "title": "ALI Project",
+			    "title": "ALI",
 			    "description": "The mission of Academic Libraries of Indiana (ALI) is to build and foster community and collaboration among academic libraries in Indiana. ALI is a consortium of 37 participating libraries with a shared print collection of 5,512,435 million title holdings and 2,287,041 million title sets.  Due to their ongoing efforts for a state-wide academic library collaboration, the ALI project has been able to retain a shared print collection of 1,701,374 title-holdings, with 370,490 thousand of those titles retained being distinct editions.", 
 			    "camera": {
 			        center: [-86.220703, 39.921849],
@@ -225,7 +225,7 @@
 			    "description": "The formation of the Central Iowa Collaborative Collections Initiative (CI-CCI) was announced in the summer of 2013, with an initial membership of 5 universities in the state.  By working together the CI-CCI group has been able to meet their goals of decreasing the size of local print collections by reducing duplication among the participating libraries and creating and maintaining a distributed, shared collection of these titles to ensure that circulating copies of them are retained within the group. Because of this CI-CCI has been able to retain 152,553 thousand title-holdings, with 741 of those titles retained being distinct editions.",
 			    "camera": {
 			        center: [-93.449707, 41.339185],
-			        zoom: 6,
+			        zoom: 6.5,
 			        bearing: 0,
 			        pitch: 0
 			    }
@@ -433,7 +433,7 @@
 				var group_div = document.createElement('div');
 			    $(group_div).addClass('group_div');
 			    var group_button = document.createElement('button');
-			    $(group_button).addClass('btn btn-xs');
+			    $(group_button).addClass('btn btn-xs group-buttons');
 			    var group_count = document.createElement('h6');
 			     $(group_count).addClass('group_count');
 
