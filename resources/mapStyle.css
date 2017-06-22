@@ -260,20 +260,26 @@ h6.group_count {
   margin-top: 20px;
 }
 
+h4#table-title {
+  float:left;
+}
+
 .search-box {
   font: 14px/20px 'Lato', sans-serif;
   text-align: center;
-  margin-top: 25px;
+  margin: 45px 0px 0px 25px;
   color: #666666;
 }
 
+
 #myInput {
+    float: left;
     font: 14px/20px 'Lato', sans-serif;
-    margin: 25px 0px 10px 15px;
+    margin: 0px 0px 10px 15px;
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 50%; /* Full-width */
+    width: 60%; /* Full-width */
     font-size: 14px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
@@ -316,5 +322,14 @@ td {
   width: 20px;
   height: 10px;
   border-radius: 5px;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(http://www.brendansadventures.com/wp-content/uploads/2011/02/library-books-900pix.jpg);
+  height: 175px;
+
+  // background-color: purple;
+  // background-position: center;
 }
 
