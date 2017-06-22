@@ -58,7 +58,7 @@
 	        </fieldset>
 		</div>
 
-		<div class='descriptive-text-container'>
+		<div class='descriptive-text-container' style="display:none;">
 		  <div class='descriptive-text'>
 		    <h4 id='location-title'></h4>
 		    <p id='location-description'></p>
@@ -67,7 +67,7 @@
 		</div>
 
 
-		<div class="banner">
+		<div class="banner" style="margin-top:5px">
 			<div class="col-md-6 total-container"> 
 <!-- 			    <h2 class="btn btn-warning btn-sm button-margin total-button pull-right">Learn More</h2> -->
 				<h3 class='total-holdings-header'>Total titles retained: <strong> 18.5 million title-holdings</strong></h3>
@@ -77,6 +77,51 @@
 				<h3 class='distinct-holdings-header'>Distinct titles retained:<strong> 7.5 million distinct holdings</strong></h3>
 			</div>
 		</div>
+		
+		<div class="col-md-12 search-box">
+		  <h3>Search for Retained Titles</h3>
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for titles..">
+		</div>
+
+		<div class="col-md-12 table-titles"> 
+		  <div class="table-responsive">          
+		  <table class="table">
+		    <thead>
+		      <tr>
+		        <th>Title</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr class="align-us">
+		        <td>The early government gazettes. -/[Victoria : Archives of British Columbia Historical Association, 1943] 
+		        	<div class='spacer'>
+				        <span id="east">EAST : 10</span>
+				        <span id="wrlc">WRLC : 3</span>	        		
+		        	</div>
+		        </td>
+		      </tr>
+		       <tr>
+		        <td>CIS US serial set index. --/pt.3 v.1
+		        	<div class='spacer'>
+				        <span id="east">EAST : 10</span>
+				        <span id="wrlc">WRLC : 3</span>	        		
+		        	</div>
+		        </td>
+		      </tr>
+		       <tr>
+		        <td>An enemy of the state : the life of Murray N. Rothbard / Justin Raimondo/Amherst, NY : Prometheus Books, 2000
+					<div class='spacer'>
+				        <span id="east">EAST : 10</span>
+				        <span id="wrlc">WRLC : 3</span>	        		
+		        	</div>
+		        </td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  </div>
+		</div>
+
+
 
 
 
@@ -408,6 +453,19 @@
 				});
 
 			    group_div.addEventListener('click', function() {
+			        if (libraries[key].title != "") {
+				        $('.descriptive-text-container').animate({
+				        }, 750, function() {
+				            $('.descriptive-text-container').show();
+				        });
+			        } else if (libraries[key].title === "") {
+			        	$('.descriptive-text-container').animate({
+				        }, 750, function() {
+				            $('.descriptive-text-container').hide();
+				        });
+			        }
+			       
+
 			        map.flyTo(libraries[key].camera);
 			        if (libraries[key].title != 'Overview') {
 				        title.textContent = libraries[key].title;
