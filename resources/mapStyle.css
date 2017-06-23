@@ -25,75 +25,45 @@ h2.page-title {
 }
 
 .intro-text-container {
-    margin: 10px 15px 0px 15px;
-    padding: 0px 10px 0px 10px;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    height: 70px;
+    margin: 10px 15px 15px 15px;
+    padding: 0px 10px;
 }
 
 .intro-text {
     font-family: 'Dosis', sans-serif; 
     color: #666666;
     background-color: #fff;
-    font-size: 17.5px;
     line-height: 25px;
-    font-weight: 400;
-}
-
-.total-container h2 {
-    margin-top:0;
-    text-align: center;
-}
-
-.total-container h3 {
-    margin-top: 10px;
-    text-align: center;
+    font-size: 17.5px;
+    font-weight: 500;
 }
 
 .total-container {
-    background-color: #86978E;
-    border: 2px solid white
-}
-
-.distinct-container h2 {
-    margin-top:0;
     text-align: center;
-}
-
-.distinct-container h3 {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.distinct-container {
     background-color: #86978E;
-    border: 2px solid white;
+    border: 3px solid white;
+    height: 80px;
+    margin-top: 5px;
 }
 
-.total-holdings-header { 
-	padding-left: 10px;
-	font-family: 'Dosis', sans-serif; 
-	color:#FFFFFF;
+.total-container h2 {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.total-holdings-subheader { 
-    text-align: center; 
+.total-container p {
     font-family: 'Dosis', sans-serif; 
     color:#FFFFFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0px 3px 0px;
 }
 
-.distinct-holdings-header { 
-    padding-left: 10px;
-    font-family: 'Dosis', sans-serif; 
-    color:#FFFFFF; 
-}
-
-.distinct-holdings-subheader { 
-	text-align: center; 
-	font-family: 'Dosis', sans-serif; 
-	color:#FFFFFF; 
+.holdings-header { 
+  padding:0px;
+  margin: 0px 0px 10px 0px;
+  font-family: 'Dosis', sans-serif; 
+  color:#FFFFFF;
 }
 
 h2.button-margin {
@@ -112,7 +82,7 @@ button {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
-    height: 250px;
+    height: 350px;
     left: 50%;
 }
 
@@ -237,7 +207,7 @@ p#location-description {
 }
 
 .group-legend button {
-  width: 75px;
+  width: 68px;
 }
 
 #group-legend-title {
@@ -255,27 +225,30 @@ h6.group_count {
   color: #666666;
 }
 
+
+// Table & Search Features 
 .table-titles {
   font: 14px/20px 'Lato', sans-serif;
   margin-top: 20px;
 }
 
-h4#table-title {
-  float:left;
+.search-box {
+  margin: 35px 0px 15px 15px;
 }
 
-.search-box {
-  font: 14px/20px 'Lato', sans-serif;
-  text-align: center;
-  margin: 45px 0px 0px 25px;
+h3#table-title {
+  float:left;
+  font: 18px/20px 'Lato', sans-serif;
   color: #666666;
 }
 
 
 #myInput {
+    font: 14px/20px 'Lato', sans-serif;
+    color: #666666;
     float: left;
     font: 14px/20px 'Lato', sans-serif;
-    margin: 0px 0px 10px 15px;
+    margin: 8px 0px 10px 15px;
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
@@ -324,12 +297,69 @@ td {
   border-radius: 5px;
 }
 
-#bannerimage {
-  width: 100%;
-  background-image: url(http://www.brendansadventures.com/wp-content/uploads/2011/02/library-books-900pix.jpg);
-  height: 175px;
+#mi-spi {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 25px 20px 5px 0px;
+  background-color: #FF4847;
+  padding: 3px 5px;
+  color: white;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+}
 
-  // background-color: purple;
-  // background-position: center;
+#viva {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 5px 20px 5px 0px;
+  background-color: #CAB2D6;
+  padding: 3px 5px;
+  color: white;
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#ci-cci {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 25px 20px 5px 0px;
+  background-color: #6A3D9A;
+  padding: 3px 5px;
+  color: white;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+#ali {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 5px 20px 5px 0px;
+  background-color: #A6CEE3;
+  padding: 3px 5px;
+  color: white;
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#coppul {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 25px 20px 5px 0px;
+  background-color: #33A02C;
+  padding: 3px 5px;
+  color: white;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+#tug {
+  font: 10px/14px 'Lato', sans-serif;
+  margin: 5px 20px 5px 0px;
+  background-color: #FF7F00;
+  padding: 3px 5px;
+  color: white;
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
 }
 
